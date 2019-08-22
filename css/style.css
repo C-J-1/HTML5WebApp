@@ -1,0 +1,187 @@
+html {
+  background: url(../img/showcase1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  font-family: 'Montserrat';
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  background-color: #9199be00;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+/* Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.dark{
+  padding: 15px;
+  background: #21262450;
+  color: #9199be;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Header*/
+header{
+  background: #21262450;
+  color: #9199be;
+  position: sticky;
+}
+
+header #branding h1{
+  text-align: center;
+  margin: 0;
+  font-weight: 100;
+}
+
+header .highlight{
+  color: #54678f;
+}
+
+
+
+/* Navigation bar */
+
+#nav{
+
+  color: #9199be;
+  text-align: center;
+  float: none;
+}
+
+#nav a{
+  color: #9199be;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#nav .current a{
+color: #54678f;
+
+}
+
+#nav a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+#nav li{
+  float: center;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+/* Showcase */
+#showcase{
+  color: #9199be;
+  background-color: transparent;
+  text-align: center;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#showcase p{
+  font-size: 24px;
+  font-weight: 100;
+}
+
+
+/* Boxes */
+#Boxes{
+  margin-top: 20px;
+  display: block;
+
+}
+
+#boxes .box{
+  background: #21262450;
+  color: #9199be;
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes h3{
+  font-weight: 100;
+}
+
+/* main-col*/
+article#main-col{
+  float: left;
+  width: 65%;
+  color: #9199be;
+}
+
+/* Sidebar */
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+
+/* Footer */
+footer{
+  background: url(../img/showcase1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #9199be;
+  background-color: #54678f50;
+  text-align: center;
+  position: fixed;
+  height: 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  #nav li,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    text-align: center;
+    width: 100%;
+  }
+
+  #nav{
+    text-align: center;
+    width: 100%;
+
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+  }
+
+  footer{
+    height: auto;
+  }
+}
