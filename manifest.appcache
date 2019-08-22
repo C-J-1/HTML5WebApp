@@ -1,8 +1,14 @@
 CACHE MANIFEST
 
 CACHE:
+
+# html5 pages
 index.html
-css/style.css
 maths/maths.html
 statistics/statistics.html
 other/other.html
+
+# css stylesheet
+css/style.css
+
+# other files
