@@ -81,3 +81,14 @@
 <!-- LINKS -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rakkas:100,400" rel="stylesheet">
+
+<!-- SCRIPTS -->
+<script language="javascript" src="./service-worker.js">
+// Check that service workers are supported
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js');
+  });
+}
+</script>
