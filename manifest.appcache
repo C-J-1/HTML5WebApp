@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+CACHE:
+
+# Pages
+index.html
+maths/maths.html
+statistics/statistics.html
+other/other.html
+
+# Stylesheet, Scripts, & Other Files
+css/style.css
