@@ -20,16 +20,16 @@ self.addEventListener('install', function(event) {
 		caches.open(OFFLINE_CACHE).then(function(cache) {
 			return cache.addAll([
 				'/',
-        "css/style.css",
-        "img/box1.png",
-        "img/box2.png",
-        "img/box3.png",
-        "img/showcase1.jpg",
-        "index.html",
-        "manifest.json",
-        "maths/maths.html",
-        "other/other.html",
-        "statistics/statistics.html",
+        "./css/style.css",
+        "./img/box1.png",
+        "./img/box2.png",
+        "./img/box3.png",
+        "./img/showcase1.jpg",
+        "./index.html",
+        "./manifest.json",
+        "./maths/maths.html",
+        "./other/other.html",
+        "./statistics/statistics.html",
 			]);
 		})
 	);
