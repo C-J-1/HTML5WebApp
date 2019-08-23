@@ -1,15 +1,5 @@
 'use strict';
 
-console.log('Hello from service-worker.js');
-
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
-
-if (workbox) {
-  console.log(`Yay! Workbox is loaded 🎉`);
-} else {
-  console.log(`Boo! Workbox didn't load 😬`);
-}
-
 const PREFIX = 'WebApp';
 const HASH = '0a2b8979'; // Computed at build time.
 const OFFLINE_CACHE = `${PREFIX}-${HASH}`;
