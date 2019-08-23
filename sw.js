@@ -28,6 +28,26 @@ self.addEventListener('install', function(e) {
  );
 });
 
+
+self.addEventListener('activate', function(event) {
+	// Delete old asset caches.
+	event.waitUntil(
+		caches.keys().then(function(keys) {
+			return Promise.all(
+				keys.map(function(key) {
+					if (
+						key != OFFLINE_CACHE &&
+						key.startsWith(`${PREFIX}-`)
+					) {
+						return caches.delete(key);
+					}
+				})
+			);
+		})
+	);
+});
+
+
 self.addEventListener('fetch', function(e) {
   console.log(e.request.url);
   e.respondWith(
