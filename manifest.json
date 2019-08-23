@@ -1,10 +1,26 @@
 {
+  "short_name": "WebApp",
   "name": "HTML5 Web App",
-  "start_url": "/",
+  "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#9199be00",
+  "background_color": "#9199be",
   "theme_color": "#54678f",
-  "icons": [ ... ]
-
+  "icons": [
+    {
+      "src": "img/icon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
