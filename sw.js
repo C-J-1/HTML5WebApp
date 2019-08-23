@@ -19,7 +19,7 @@ self.addEventListener('install', function(event) {
 	event.waitUntil(
 		caches.open(OFFLINE_CACHE).then(function(cache) {
 			return cache.addAll([
-				'/',
+				'./',
         "./css/style.css",
         "./img/box1.png",
         "./img/box2.png",
