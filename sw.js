@@ -21,7 +21,6 @@ self.addEventListener('install', function(e) {
        "manifest.json",
        "maths/maths.html",
        "other/other.html",
-       "install.js",
        "statistics/statistics.html",
      ]);
    })
