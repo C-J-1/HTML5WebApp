@@ -1,6 +1,15 @@
 # HTML5WebApp
 A repository for the exploration of offline HTML5 Application Cache and Progressive Web Apps.
 
+# Set up for development and testing
+Clone the repository to your desktop, open a command prompt, travel to the directory that contains index.html and type:
+
+python -m http.server 1337
+
+then open a browser and go to the address 127.0.0.1:1337
+
+Use this when testing and developing so you don't need to add changes to the github repo master branch all the time.
+
 
 # Downloading the Web App
 To download the Web App, there are different methods based on different browsers or devices. The ability to download the app will not be available if it has already been been downloaded. Uninstall the app to regain the ability to download it.
@@ -24,5 +33,5 @@ The ability to download the app on a linux device running Ubuntu using Firefox Q
 
 # Try it Offline
 
-Download the web app using one of the above methods, disconnect your device from the internet, and open the web app on your desktop.
+Download the web app using one of the above methods, disconnect your device from the internet, and open the web app on your desktop or home screen.
 
