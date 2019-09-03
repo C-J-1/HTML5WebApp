@@ -24,7 +24,7 @@ If you are using Firefox, Brave, or Chrome on a Windows computer there will be a
 
 If you're using an Android device, an "Add to home screen" dialog box will pop up on the home page and you can choose to download it or cancel.
 
-If you're using an iOS device (Safari Browser), press the share button at the top of the browser bar while on the home page, then click on "add to home screen".
+If you're using an iOS device (Safari Browser), press the share button at the top of the browser bar while on the home page, then click on "add to home screen". This method is limited, as downloading the app to the homescreen will only allow you to open it in a browser, not as it's own seperate web app.
 
 ![](readme/saf.png?raw=true "Safari Share Button")
 
