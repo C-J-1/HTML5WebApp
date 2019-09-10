@@ -12,9 +12,9 @@ Use this when testing and developing so you don't need to add changes to the git
 
 
 # Downloading the Web App
-First go to the home page: https://c-j-1.github.io/HTML5WebApp/
+First go to the home page: https://c-j-1.github.io/pwa/
 
-To download the Web App, there are different methods based on different browsers or devices. The ability to download the app will not be available if it has already been been downloaded. Uninstall the app to regain the ability to download it.
+To download the Web App, there are different methods based on different browsers or devices. The ability to download the app will not be available if it has already been been downloaded. Uninstall the app to regain the ability to download it. To uninstall, make sure the app is not open on your device and delete the app, also you will need to remove it from the installed apps within the browser e.g. chrome://apps
 
 If you are using Firefox, Brave, or Chrome on a Windows computer there will be a small (+) sign on the right hand side of the URL bar when you are on the home page. By clicking on this you will be given an option to download the Web App to your desktop, or cancel.
 
